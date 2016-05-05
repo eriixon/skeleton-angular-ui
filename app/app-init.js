@@ -1,1 +1,1 @@
-(function(){var app = angular.module('refresh', ['ui.router', 'ngSanitize'])})();
+(function(){var app = angular.module('game', ['ui.router'])})();

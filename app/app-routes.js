@@ -1,5 +1,5 @@
-angular.module('refresh').config(function($stateProvider){
-    
+angular.module('game').config(function($stateProvider){
+
     $stateProvider
     .state('home',{
         url: '',
@@ -7,6 +7,6 @@ angular.module('refresh').config(function($stateProvider){
     })
     .state('lights-out',{
         url: '/lights-out',
-        templateUrl: '<lights-out-component></lights-out-component>',
+        template: '<lights-out-component></lights-out-component>'
     })
 })
