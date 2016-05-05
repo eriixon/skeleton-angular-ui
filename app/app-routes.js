@@ -5,10 +5,8 @@ angular.module('refresh').config(function($stateProvider){
         url: '',
         templateUrl: 'pages/home.html'
     })
-    .state('pageone',{
-        url: '/pageone',
-        templateUrl: 'pages/pageone.html',
-        controller: 'pageOneController',
-        controllerAs: 'poc'
+    .state('lights-out',{
+        url: '/lights-out',
+        templateUrl: '<lights-out-component></lights-out-component>',
     })
 })
